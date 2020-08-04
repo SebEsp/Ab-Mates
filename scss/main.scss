@@ -1,0 +1,261 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+$colorgris: #BEC1C4; 
+$colormarron: #bc6c25;
+
+body {
+    background-image: linear-gradient(#252422,#212d40);
+}
+
+
+ul{ 
+    list-style: none;
+    li{
+        margin: 1rem;
+        margin-left: 1.5rem;
+        padding: 1rem;
+        a{
+            list-style: none;
+            text-decoration: none;
+            color: $colorgris;
+            font-size: 2.3rem;
+            font-weight: bold;
+            border-left: solid 0.5rem $colormarron;
+            text-align: center;
+            padding: 0.5rem;
+        }
+    }
+        
+}
+
+ul{
+    div{
+        li{
+            .logoabmates{
+                border: none;
+            }
+        }
+    }
+}
+
+a {
+   .opciones{
+	text-decoration: none;
+	cursor: pointer;
+	
+    }
+}
+.opciones:hover{
+	color: $colormarron;
+	text-decoration: none;
+}
+
+
+
+
+main{
+    p{
+        font-size: 3rem;
+        color: $colorgris;
+    }
+}
+
+section{
+    img{
+        border-radius:47px 47px 47px 47px;
+    }
+}
+
+.nuestrosproductos{
+    margin-bottom: 8rem;
+    h1{
+        color: $colorgris;
+        margin: 5rem;
+    }
+}
+
+
+
+
+
+.nosotros{
+    padding: 1rem;
+    margin-left: 20rem;
+    margin-bottom: 20rem;
+    h1{
+        color: $colorgris;
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+    }
+    .divnosotros{
+        margin-left: 0.5rem;
+        p{
+            font-size: 2rem;
+            color: $colorgris;
+            width: 50%;
+        }
+
+    }
+}
+
+h1{
+    color: $colorgris;
+    margin-left: 3rem;
+}
+
+h2{
+    color: $colorgris;
+    font-weight: bold;
+    font-style: italic;
+}
+
+//--------------mates----------------//
+.contenedor3{
+    margin-bottom: 10rem;
+    .mates {
+        text-align: center;
+        border: solid 0.3rem $colorgris;
+        font-size: 2rem;
+        width: 30%;
+        margin: 2rem;
+        padding: 2rem;
+        p{
+            color: $colorgris;
+        }
+    }
+}
+
+//------------bombillas----------------//
+.contenedor4{
+    margin-bottom: 10rem;
+    .bombillabp {
+        text-align: center;
+        border: solid 0.3rem $colorgris;
+        font-size: 2rem;
+        width: 30%;
+        margin: 2rem;
+        padding: 2rem;
+        p{
+            color: $colorgris;
+        }
+    }
+
+    .bombillapl {
+        text-align: center;
+        border: solid 0.3rem $colorgris;
+        font-size: 2rem;
+        width: 30%;
+        margin: 2rem;
+        padding: 2rem;
+        p{
+            color: $colorgris;
+        }
+    }
+}
+
+//------------Materas---------------//
+.contenedor5{
+    .materadecuero {
+        text-align: center;
+        border: solid 0.3rem $colorgris;
+        font-size: 2rem;
+        width: 23%;
+        margin: 2rem;
+        padding: 2rem;
+        p{
+            color: $colorgris;
+        }
+    }
+
+    .materadecuero4x {
+        text-align: center;
+        border: solid 0.3rem $colorgris;
+        font-size: 2rem;
+        width: 30%;
+        margin: 2rem;
+        padding: 2rem;
+        p{
+            color: $colorgris;
+        }
+    }
+
+    .materaconcorrea {
+        text-align: center;
+        border: solid 0.3rem $colorgris;
+        font-size: 2rem;
+        width: 25%;
+        margin: 2rem;
+        padding: 2rem;
+        p{
+            color: $colorgris;
+        }
+    }
+}
+
+.footermateras{
+    margin-top: 10rem;
+}
+
+
+//-------------termos------------// 
+.contenedor6{
+    margin-bottom: 10rem;
+    .termos{
+        text-align: center;
+        border: solid 0.3rem $colorgris;
+        font-size: 2rem;
+        height: 80%;
+        width: 30%;
+        margin: 2rem;
+        padding: 2rem;
+        p{
+            color: $colorgris;
+        }
+    }
+}
+
+
+//-----------contacto------------//
+.contenedor7{
+    color: #252422;
+	background-color: $colormarron;
+	border: solid 0.5rem $colorgris;
+	margin: 10rem;
+	width: 60%;
+	font-size: 2rem;
+    font-weight: bold;
+    form{
+        margin: 1.5rem;
+    }
+    legend{
+        strong{
+            font-size: 2.5rem;
+        }
+    }
+}
+
+
+
+footer{
+    background-color: black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    ul{
+        color: $colorgris;
+        list-style: none;
+        li{
+            list-style: none;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+    }
+}
+
